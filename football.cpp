@@ -43,7 +43,7 @@ protected:
 public:
     void showmatches(Teams t1, Teams t2)
     {
-        cout << "                            Quarterfinal " << l << " will be played between ";
+        cout << "                          Quarterfinal " << l << " will be played between ";
         cout << t1.team_name << " v/s " << t2.team_name << endl;
         l++;
     }
